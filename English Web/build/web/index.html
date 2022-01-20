@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>English level</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resource/css/style.css" />
+        <link rel="stylesheet" href="resource/css/style1.css /">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h1 class="page_title">Fill the form</h1>
+                <form action="NewServlet" method="GET">
+                    <p class="page_title">Input student's full name</p>
+                    <label for="mas" class="page_title">Client's full name</label>
+                    <textarea name="mas" id="mas" class="textarea" required></textarea>
+                    <br><br>
+                    <label class="label ">Course name</label>
+                    <select name="course" class = "label">
+                        <option>Java</option>
+                        <option>C++</option>
+                        <option>JS</option>
+                        <option>Ruby</option>
+                    </select>
+                    <br><br>
+                    <label for="mas" class="label">English level</label> 
+                    <input type="checkbox" name="english" value="I'll pass interview" class = "label" checked />I'll pass interview
+                    <input type="checkbox" name="english" value="Read manuals" class = "label" checked />Read manuals
+                    <input type="checkbox" name="english" value="Don't speak English" class = "label" checked />Don't speak English
+                    <br><br><br>
+                    <input class="send" type="submit" value="Send"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

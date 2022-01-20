@@ -1,0 +1,67 @@
+body {
+    font: 30px URW Chancery L, cursive;
+    padding: 20px;
+    background-image: url(../img/car.jpg); 
+    color: rgb(252, 3, 3);
+}
+.car {
+    width: 900px;
+    margin: 0 auto;
+}
+.information {
+    width: 100%;
+    text-align: center;
+}
+.choose {
+    font-size: 29px;
+    color: rgb(252, 3, 3);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.label {
+    font-size: 50px;
+    color: rgb(252, 13, 13);
+}
+
+p {
+    font-size: 29px;
+    color: rgb(252, 3, 3);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragraph {
+    font-size: 20px;
+    color: rgb(13, 12, 12);
+    margin-bottom: 50px;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.send {
+    width: 150px;
+    padding: 15px 0;
+    background: rgb(255,255,255);
+    border: 1px solid rgb(13, 12, 12);
+    font: 16px URW Chancery L, cursive;
+    color: rgb(255, 47, 0);
+}
+
+.input {
+    display: block;
+    width: 100%;
+    height: 100px;
+    font: 16px URW Chancery L, cursive;
+    color: rgb(115, 8, 8);
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid rgb(115, 8, 8);
+    resize: both;
+}
+.text{
+    font-size: 40px;
+    color: rgb(255, 0, 0);
+}

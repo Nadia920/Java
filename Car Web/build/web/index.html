@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Choose car</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="resource/css/style.css" />
+        <link rel="stylesheet" href="resource/css/dropping.css /">
+    </head>
+    <body>
+        <div class="car">
+            <div class="information">
+                <h1 class="choose">Buying a car</h1>
+                <form action="CarServlet" method="GET">
+                    <p class="choose">Enter vehicle specifications</p>
+                    <label for="model" class="choose">Сar model</label>
+                    <input name="model" id="model" class="input" required>
+                    <br><br>
+                    <label for="brand" class="choose">Engine brand</label>
+                    <input name="brand" class="input" id = "brand" required>
+                    <br><br>
+                    <label for="displacement" class="choose">Сar engine displacement</label>
+                    <input name="displacement" id ="displacement" class="input" required>
+                    <br><br>
+                    <label class="label">Year of issue</label> 
+                    <input type="radio" name="car" value="2021" class="label" checked />2021
+                    <input type="radio" name="car" value="2020" class="label"  />2020
+                    <input type="radio" name="car" value="2019" class="label"  />2019
+                    <br><br><br>
+                    <input type="submit" value="Send" class="send"/>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
