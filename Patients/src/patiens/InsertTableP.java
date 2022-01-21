@@ -320,12 +320,10 @@ public class InsertTableP extends javax.swing.JFrame
         try
         {
             System.out.println("333");
-            String insertStr1 = "DELETE FROM patient WHERE ID='" + CarID + "'";
+            String insertStr = "DELETE FROM patient WHERE ID=" + CarID;
             System.out.println("4444");
-            System.out.println(insertStr1);
-            int done = stmt.executeUpdate(insertStr1);
-            System.out.println("5555");
-            System.out.println(insertStr1);
+            stmt.executeUpdate(insertStr);
+            System.out.println(insertStr);
             CommentLabel.setText("1 row deleted");
             getContentPane().removeAll();
             initComponents();

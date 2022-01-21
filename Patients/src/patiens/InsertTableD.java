@@ -315,7 +315,6 @@ public class InsertTableD extends javax.swing.JFrame {
             initComponents();
         } catch (Exception e) {
             CommentLabel.setText("Error occured in deleting data");
-            
         }
     }//GEN-LAST:event_DeleteButtonActionPerformed
 
