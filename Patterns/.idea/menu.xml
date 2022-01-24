@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><payment>
+<client>
+	<name>dfdf</name>
+	<price>34$</price>
+	<description>df</description>
+	<card>45</card>
+</client>
+</payment>

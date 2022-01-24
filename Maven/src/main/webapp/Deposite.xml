@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bank>
+    <deposite enum_type="TIME_DEPOSITE" type="Срочный" currency="RUB,BYN,USD,EUR" term="От 32 до 1 830 дней" percent="7.3">
+        <name>Традиционный</name>
+        <description>Максимальный доход, гибкие условия размещения</description>
+    </deposite>
+    <deposite enum_type="TIME_DEPOSITE" type="Срочный" currency="RUB,BYN,USD,EUR" term="От 32 до 1 830 дней" percent="14.3">
+        <name>Вкусный</name>
+        <description>Возможность пополнения вклада, стабильный доход</description>
+    </deposite>
+    <deposite enum_type="TIME_DEPOSITE" type="Срочный" currency="BYN" term="От 90 до 720 дней" percent="11.1">
+        <name>Легкий</name>
+        <description>Возможность пополнения и отзыва, гибкие условия размещения</description>
+    </deposite>
+    <deposite enum_type="TIME_DEPOSITE" type="Срочный" currency="BYN" term="От 1 до 30 дней" percent="3">
+        <name>Горячий</name>
+        <description>Короткий срок размещения, стабильный доход</description>
+    </deposite>
+    <deposite enum_type="TIME_DEPOSITE" type="Срочный" currency="RUB,BYN,USD,EUR" term="От 90 до 720 дней" percent="5.5">
+        <name>Вольный</name>
+        <description>Возможность пополнения и отзыва, гибкие условия размещения</description>
+    </deposite>
+    <deposite enum_type="DEMAND_DEPOSITE" type="До востребования" currency="RUB,BYN,USD,EUR" term="Срок вклада не ограничен" percent="11">
+        <name>До востребования</name>
+        <description>Пополнение и отзыв без ограничений</description>
+    </deposite>
+    <deposite enum_type="SAVING_DEPOSITE" type="Сберегательный" currency="RUB,BYN,USD,EUR" term="От 1 дня" percent="10">
+        <name>Депозит для Вас</name>
+        <description>Выгодные условия размещения</description>
+    </deposite>
+    <deposite enum_type="SHORT_TERM_DEPOSITE" type="Краткосрочный" currency="RUB, EUR, USD" term="от 3 месяцев" percent="6.8">
+        <name>Интернет-депозит Тренд</name>
+        <description>Плавающая ставка, без возможности отзыва</description>
+    </deposite>
+    <deposite enum_type="SAVING_DEPOSITE" type="Сберегательный" currency="USD" term="от 3 месяцев" percent="12.4">
+        <name>Беларусбанк-онлайн</name>
+        <description>Выплата процентов ежемесячно</description>
+    </deposite>
+    <deposite enum_type="LONG_TERM_DEPOSITE" type="Долгосрочный" currency="BYN" term="от 12 месяцев" percent="7.3">
+        <name>Классик безотзывный на 1 год</name>
+        <description>Фиксированная ставка, выплата процентов в конце срока</description>
+    </deposite>
+    <deposite enum_type="LONG_TERM_DEPOSITE" type="Долгосрочный" currency="BYN" term="от 36 месяцев" percent="7.9">
+        <name>Классик Безотзывный Детский</name>
+        <description>С возможностью пополнения, без частичного снятия</description>
+    </deposite>
+    <deposite enum_type="SHORT_TERM_DEPOSITE" type="Краткосрочный" currency="BYN" term="от 3 месяцев" percent="4.5">
+        <name>Урожайный Отзывный</name>
+        <description>Плавающая ставка, с капитализацией</description>
+    </deposite>
+</bank>
