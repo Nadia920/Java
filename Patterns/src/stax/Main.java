@@ -8,7 +8,7 @@ public class Main {
      Он был представлен в Java 6.0 и считается превосходящим SAX и DOM.*/
     public static void main(String[] args) throws InterruptedException {
         StaXParser read = new StaXParser();
-        List<Internet> readConfig = read.readConfig("D:/учёба//СиТАиРИС4,5/.idea/menu.xml");
+        List<Internet> readConfig = read.readConfig("/.idea/menu.xml");
         for (Object internet : readConfig) {
             System.out.println(internet);
         }
@@ -18,7 +18,7 @@ public class Main {
         menuCalculate.printTheCheapest();
         menuCalculate.printTheMostExpensive();
         StaxWriter configFile = StaxWriter.createWriter();
-        configFile.setFile("D:/учёба//СиТАиРИС4,5/.idea/menu.xml");
+        configFile.setFile("/.idea/menu.xml");
 
         try {
             configFile.saveConfig();

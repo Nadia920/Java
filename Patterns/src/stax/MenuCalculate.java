@@ -4,7 +4,7 @@ import java.util.List;
 
 public class MenuCalculate implements PrintCalculations, EditString{
 
-    List<Internet> interaction = new StaXParser().readConfig("D:/учёба//СиТАиРИС4,5/.idea/menu.xml");
+    List<Internet> interaction = new StaXParser().readConfig("../.idea/menu.xml");
 
 
     @Override

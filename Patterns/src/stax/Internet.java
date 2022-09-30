@@ -13,7 +13,7 @@ public class Internet {
         this.price = price;
         this.description = description;
         this.card = card;
-        //System.out.println("яяя" + description);
+
     }
 
     public static class Builder {
@@ -31,7 +31,7 @@ public class Internet {
 
     @Override
     public String toString() {
-        //System.out.println(description);
+
         return "Платёж\n" +
                 "Название: " + name + '\n' +
                 "Цена: " + price + '\n' +
